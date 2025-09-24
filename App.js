@@ -1,9 +1,9 @@
-import CounterApp from './CounterApp';
-
-
 import {SafeAreaView,StyleSheet} from 'react-native';
 import ColorChangerApp from './ColorChangerApp.js';
 import CounterApp from "./CounterApp.js";
+import ChatBox from './ChatBox';
+import CommentInput from './CommentInput'
+
 export default function App() {
 
   return (
@@ -11,6 +11,10 @@ export default function App() {
  <SafeAreaView style={styles.container}>
 <CounterApp/>
  <ColorChangerApp />
+ <ChatBox/>
+ <CommentInput/>
+ 
+ 
  </SafeAreaView>
    )
 }
