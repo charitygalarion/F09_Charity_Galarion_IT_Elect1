@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import ChatBubble from "./ChatBubble";
 
-export default function ChatScreen() {
+export default function ChatBox() {
   const [messages, setMessages] = useState([
     { id: "1", text: "Hi", sender: "bot" },
     { id: "2", text: "Hello Cha2", sender: "me" },

@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {StyleSheet,Text,View,Button} from 'react-native';
 
-
+export default function CounterApp() {
 const CounterApp = ()=>{
   const [count,setCount] = useState(0);
   
@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     padding: 30,
     margin: 20,
   }
+}
  });
 
 
