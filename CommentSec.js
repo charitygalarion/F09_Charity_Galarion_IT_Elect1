@@ -4,7 +4,7 @@ import { View, Text, FlatList, TextInput, TouchableOpacity, StyleSheet, Image, }
 export default function CommentSect() {
   const [comments, setComments] = useState([
     { id: "1", text: "Hi love", avatar: require("./assets/GalarionC.png") },
-    { id: "2", text: "Imissyou", avatar: require("./assets/apolpie.png") },
+    { id: "2", text: "Imissyouu", avatar: require("./assets/apolpie.png") },
   ]);
   const [newComment, setNewComment] = useState("");
 
